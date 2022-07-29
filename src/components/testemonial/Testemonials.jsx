@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import Swiper core and required modules
-import { Pagination, Navigation } from 'swiper';
+import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

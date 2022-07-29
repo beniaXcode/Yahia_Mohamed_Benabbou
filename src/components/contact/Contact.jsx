@@ -54,7 +54,7 @@ function Contact() {
             <h5>+212 650252742</h5>
             <a
               href="https://api.whatsapp.com/send?phone=+212650252742"
-              target="_blank"
+              target="_blank"  rel="noreferrer" 
             >
               Send a Message
             </a>

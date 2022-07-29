@@ -6,12 +6,12 @@ import { BiCopyright } from "react-icons/bi";
 function Footer() {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="#home" className="footer__logo">
         Yahia Mohamed Benabbou
       </a>
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -41,7 +41,7 @@ function Footer() {
         </a>
       </div>
       <div className="footer_copuright">
-        <small>&copy; Benia All right reserved</small>
+        <small><BiCopyright/> Benia All right reserved</small>
       </div>
     </footer>
   );

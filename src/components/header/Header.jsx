@@ -5,7 +5,7 @@ import ME from "../../assets/me.png"
 import HeaderSocials from './HeaderSocials.jsx'
 function Header() {
   return (
-    <header>
+    <header id='home'>
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Benabbou Yahia Mohamed</h1>
