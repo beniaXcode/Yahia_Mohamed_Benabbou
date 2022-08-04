@@ -11,24 +11,39 @@ function Expeience() {
           <h3>Frontend Devlopment</h3>
           <div className="experience__content">
             <Skills skill="HTML" level="Experienced" />
-            <Skills skill="CSS/Bootstrap/Tailwind" level="Experienced" />
-            <Skills skill="TypeScript" level="Basic" />
+            <Skills skill="CSS/Bootstrap" level="Experienced" />
+            <Skills skill="Tailwind" level="Experienced" />
+            <Skills skill="Material UI" level="Experienced" />
             <Skills skill="JavaScript" level="Experienced" />
-            <Skills skill="React/JQuery" level="Experienced" />
-            <Skills skill="Redux/Context API" level="Basic" />
+            <Skills skill="Typecript" level="Experienced" />
+            <Skills skill="React" level="Experienced" />
+            <Skills skill="JQuery" level="Experienced" />
+            <Skills skill="Redux/Context API" level="Experienced" />
+            <Skills skill="NextJS" level="Experienced" />
+            <Skills skill="Figma" level="intermediat" />
+            <Skills skill="AngularJS" level="intermediat" />
+            <Skills skill="styled Comp" level="Experienced" />
           </div>
         </div>
         <div className="experience__frontend">
           <h3>Backend Devlopment</h3>
           <div className="experience__content">
-            <Skills skill="Node js" level="intermediat" />
-            <Skills skill="Express" level="intermediat" />
-            <Skills skill="MongoDB/Firebase" level="Experienced" />
-            <Skills skill="MySQL/PostgerSql" level="Experienced" />
-            <Skills skill="Next js/GraphQl" level="Basic" />
-            <Skills skill="Rest API" level="Basic" />
+            <Skills skill="MongoDB" level="Experienced" />
+            <Skills skill="Firebase" level="Experienced" />
+            <Skills skill="MySQL" level="Experienced" />
+            <Skills skill="PostgerSql" level="Experienced" />
+            <Skills skill="GraphQl" level="Experienced" />
+            <Skills skill="Testing" level="Experienced" />
+            <Skills skill="Node js" level="Experienced" />
+            <Skills skill="Express" level="Experienced" />
+            <Skills skill="PHP" level="intermediat" />
+            <Skills skill="AWS Hosting" level="Experienced" />
+            <Skills skill="Rest API" level="Experienced" />
+            <Skills skill=" CI/CD" level="Experienced" />
             <Skills skill="Django" level="intermediat" />
-            <Skills skill="Spring" level="Basic" />
+            <Skills skill="Git/Github" level="Experienced" />
+            <Skills skill="Debugging" level="Experienced" />
+            <Skills skill="Troubleshooting" level="Experienced" />
           </div>
         </div>
       </div>

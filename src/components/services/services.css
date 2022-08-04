@@ -34,6 +34,14 @@
 }
 .service__liste p{
     font-size: 0.9rem
+
+}
+.service__list li:nth-child(2n+1){
+    color:blanchedalmond
+
+}
+.service__list li:nth-child(2n) {
+    color: var(--color-light)
 }
 /* ===================================================maedi queries (medium)===================================================*/
 @media screen and (max-width:1024px) {

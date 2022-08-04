@@ -1,12 +1,22 @@
 header{
     height: 100vh;
-    padding-top:7rem;
-    overflow:hidden;
+    text-align: center;
+}
+h1:before{
+content:'BENABBOU';
+font-weight: 500;
+    font-size: 2.5rem;
+    color: var(--color-light);
+    
 }
 .header__container{
     text-align: center;
     position: relative;
     height: 100%    ;
+}
+h5{
+    margin-top: 3rem;
+    font-weight: 500;
 }
 /*===============================================cta section==============================================*/
 .cta{
@@ -33,19 +43,19 @@ header{
 }
 /*===============================================hero section==============================================*/
 .hero{
-    background: linear-gradient(var(--color-primary),transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius:12rem 12rem 0  0;
-    overflow:hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    width: 45rem;
+    height: 15rem;
+      margin-top: 4rem;
+      position: relative;
+      left: 14%;
+    border-radius:1rem;
+    padding: 3rem;
+    text-align: center;
+    font-size: smaller;
+    font-weight: 500;
+    color:#8892b0;
+    margin-right: 10%;
 }
-/* .hero img{
-    mt
-} */
 /*===============================================scrool section==============================================*/
 .scroll__down{
     position: absolute;
@@ -60,14 +70,48 @@ header{
 @media screen and (max-width: 1024px) {
     header {
         height: 100vh;
+        text-align: center;
     }
+        .hero {
+            width: 75%;
+            font-size: smaller;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            margin-right: 2rem;
+            text-align: center;
+            margin-left: -2rem;
+    
+            height: 100%;
+    
+        }
+                 
+                 .scroll__down {
+                     right: 0;
+                 }
+                 .header__socials,{
+                    left:0
+                 }
 }
 /* ===================================================maedi queries (small)===================================================*/
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+        text-align: center;
     }
     .header__socials,.scroll__down{
         display: none
     }
+    .hero{
+        width: 100%;
+    font-size: smaller;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    text-align: center;
+    margin-left: -2rem;
+   
+    height: 100%;
+    
+    }
 }
+

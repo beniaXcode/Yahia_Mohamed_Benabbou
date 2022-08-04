@@ -12,25 +12,29 @@ function Services() {
             <h3>UI/UX Design</h3>
           </div>
           <ul className='service__list'>
-            <li>
+                        <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Cross-platform experiences design</p>
             </li>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Interface architecture</p>
             </li>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Sketching & Wireframes</p>
             </li>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Dynamic prototype</p>
             </li>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Editing</p>
+            </li>
+            <li>
+            <BsCheck  className="service__liste-icon"/>
+            <p>Design review</p>
             </li>
           </ul>
         </article>
@@ -43,27 +47,28 @@ function Services() {
           <ul className='service__list'>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+SaaS Development</p>
             </li>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Design APIS</p>
             </li>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Pentesting</p>
             </li>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Search Engine Optimization (SEO)</p>
             </li>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Software Testing</p>
             </li>
                         <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Database Development</p>
             </li>
           </ul>
         </article>
@@ -76,23 +81,23 @@ function Services() {
           <ul className='service__list'>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p> secure Architecture </p>
             </li>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p> Reliable Architecture </p>
             </li>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p> High Performance & Efficiency Architecture </p>
             </li>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Operational Excellence Architecture </p>
             </li>
             <li>
             <BsCheck  className="service__liste-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Migration</p>
             </li>
           </ul>
         </article>

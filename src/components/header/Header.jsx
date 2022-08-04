@@ -1,18 +1,22 @@
-import React from 'react'
 import Cta from './Cta.jsx'
 import './header.css'
-/* import ME from "../../assets/me.png"*/
+import Typewriter from 'react-ts-typewriter';
 import HeaderSocials from './HeaderSocials.jsx'
 function Header() {
+  const me = `                   I'm a software engineer specializing in building (and designing) secure and high performance websites, applications, mobile applications and everything in between. Also, I'm passionate about Cloud computing and DevOps. Currently, I'm a freelancer focused on building high quality software solutions.                                                                                                                     `
   return (
     <header id="home">
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <h1>Benabbou Mohamed Yahia</h1>
+        <h1> Mohamed Yahia</h1>
         <h5 className="text-light">Web Devlopper - AWS Solutions Architect</h5>
         <Cta />
         <HeaderSocials />
         <div className="hero">
+          <Typewriter
+            text={me} loop={true} speed={20}
+          />
+
         </div>
       </div>
       <a href="#contact" className="scroll__down ">

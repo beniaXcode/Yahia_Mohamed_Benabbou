@@ -12,9 +12,50 @@ function About() {
 
       <div className="container about__container">
         <div className="about__me">
-          <div className="about__me-image">
-            
-          </div>
+<div class="animation01">
+        <div class="rhombus_small">
+            <div class="rhombus">
+                <div class="border_box">
+                    <span class="line line01"></span>
+                    <span class="line line02"></span>
+                    <span class="line line03"></span>
+                    <span class="line line04"></span>
+                    <span class="circle circle01"></span>
+                    <span class="circle circle02"></span>
+                    <span class="circle circle03"></span>
+                    <span class="circle circle04"></span>
+                    <span class="animation_line animation_line01"></span>
+                    <span class="animation_line_wrapper animation_line02_wrapper"><span class="animation_line animation_line02"></span></span>
+                    <span class="animation_line animation_line03"></span>
+                    <span class="animation_line_wrapper animation_line04_wrapper"><span class="animation_line animation_line04"></span></span>
+                    <span class="animation_line animation_line05"></span>
+                    <span class="animation_line_wrapper animation_line06_wrapper"><span class="animation_line animation_line06"></span></span>
+                    <span class="animation_line animation_line07"></span>
+                    <span class="animation_line_wrapper animation_line08_wrapper"><span class="animation_line animation_line08"></span></span>
+                </div>
+                <div class="wave">
+                    <div class="wave_wrapper"><div class="wave_box"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="animation02">
+        <div class="rhombus_box">
+            <span class="rhombus_item_wrapper rhombus_item01_wrapper"><span class="rhombus_item"></span></span>
+            <span class="rhombus_item_wrapper rhombus_item02_wrapper"><span class="rhombus_item"></span></span>
+        </div>
+        <div class="double_content">
+            <div class="double_wrapper02 dotted02"><div class="dotted_hide"><div class="double_wrapper01 dotted01"><span class="dotted_right"></span></div></div></div>
+            <div class="double_wrapper02 white02"><div class="double_wrapper01 white01"></div></div>
+            <div class="double_wrapper02 gray02"><div class="double_wrapper01 gray01"></div></div>
+            <div class="double_wrapper02 orange02"><div class="double_wrapper01 orange01"></div></div>
+        </div>
+        <div class="name">
+            <p>Benia.me</p>
+            <span class="name_circle01"></span>
+            <span class="name_circle02"></span>
+        </div>
+    </div>
         </div>
         <div className="about__content">
           <div className="about__cards">
@@ -22,13 +63,13 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>4+years working</small>
+              <small>5+years working</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>5+ worldwide</small>
+              <small>12+ worldwide</small>
             </article>
 
             <article className="about__card">
@@ -39,10 +80,14 @@ function About() {
 
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iure
-            dolorum debitis, doloribus sequi autem voluptatibus porro quos
-            doloremque vero repellat perspiciatis iusto placeat sit error ea
-            voluptates accusamus dolorem.
+            <p className='about__me-sumary'>❖ Frontend Developer with 5+ years of professional experiences in Web Designing and User Interface Development.</p>
+            
+            <p className='about__me-sumary'> ❖ Strong experience with Cross Browser Compatibility issues and Optimization for web, including CSS Sprites and best practices</p>
+
+            <p className='about__me-sumary'>❖ Experts in responsive Web Design and analysing and fixing UI bugs quickly.</p>
+            <p className='about__me-sumary'>❖ Proficiency in code optimization to improving the performance..</p>
+
+
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

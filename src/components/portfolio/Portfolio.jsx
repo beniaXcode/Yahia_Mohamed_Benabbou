@@ -1,5 +1,10 @@
 import React from 'react';
-import proj1 from "../../assets/web2.png";
+import benia from "../../assets/project_benia.jpeg";
+import blog from "../../assets/project_blogger.jpeg";
+import coffee from "../../assets/project_coffee.jpeg";
+import web3 from "../../assets/project_web3.jpeg";
+import dashbord from "../../assets/project_dashbord.jpeg";
+import e_com from "../../assets/project_e-com.jpeg";
 import './portfolio.css'
 
 const Portfolio = () => {
@@ -10,11 +15,27 @@ const Portfolio = () => {
       <div className="contair portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={proj1} alt="" />
+            <img src={blog} alt="" />
           </div>
-          <h3>E-comerce WebSite</h3>
+          <h3>Blogger</h3>
           <div className="portfolio__item-cta">
-            <a href="https://www.github.com" className="btn"  >
+            <a href="https://github.com/beniaXcode/Blogger" className="btn"  >
+              Github
+            </a>
+            <a
+              href="https://dribble.com"
+              className="btn btn-primary"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={coffee} alt="" />
+          </div>
+          <h3>Coffee-shop</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/beniaXcode/coffee-shop" className="btn"  >
               Github
             </a>
             <a
@@ -27,11 +48,11 @@ const Portfolio = () => {
           </div>
         </article>        <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={proj1} alt="" />
+            <img src={web3} alt="" />
           </div>
-          <h3>E-comerce WebSite</h3>
+          <h3>web3-app</h3>
           <div className="portfolio__item-cta">
-            <a href="https://www.github.com" className="btn"  >
+            <a href="https://github.com/beniaXcode/web3-app" className="btn"  >
               Github
             </a>
             <a
@@ -44,11 +65,11 @@ const Portfolio = () => {
           </div>
         </article>        <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={proj1} alt="" />
+            <img src={e_com} alt="" />
           </div>
-          <h3>E-comerce WebSite</h3>
+          <h3>E-commerce</h3>
           <div className="portfolio__item-cta">
-            <a href="https://www.github.com" className="btn"  >
+            <a href="https://github.com/beniaXcode/E-commerce" className="btn"  >
               Github
             </a>
             <a
@@ -61,11 +82,11 @@ const Portfolio = () => {
           </div>
         </article>        <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={proj1} alt="" />
+            <img src={dashbord} alt="" />
           </div>
-          <h3>E-comerce WebSite</h3>
+          <h3>Dashbord</h3>
           <div className="portfolio__item-cta">
-            <a href="https://www.github.com" className="btn"  >
+            <a href="https://www.github.com/beniaxcode/react-dashbord" className="btn"  >
               Github
             </a>
             <a
@@ -78,32 +99,15 @@ const Portfolio = () => {
           </div>
         </article>        <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={proj1} alt="" />
+            <img src={benia} alt="" />
           </div>
-          <h3>E-comerce WebSite</h3>
+          <h3>Benia.me</h3>
           <div className="portfolio__item-cta">
-            <a href="https://www.github.com" className="btn"  >
+            <a href="https://www.github.com/beniaxcode/YAHIA_MOHAMED" className="btn"  >
               Github
             </a>
             <a
-              href="https://dribble.com"
-              className="btn btn-primary"
-               
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={proj1} alt="" />
-          </div>
-          <h3>E-comerce WebSite</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://www.github.com" className="btn"  >
-              Github
-            </a>
-            <a
-              href="https://dribble.com"
+              href="https://benia.me"
               className="btn btn-primary"
                
             >

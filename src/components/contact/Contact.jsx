@@ -1,4 +1,3 @@
-import React from 'react'
 import './contact.css'
 import { MdOutlineEmail } from "react-icons/md";
 import {FiTwitter} from "react-icons/fi";
@@ -10,12 +9,10 @@ function Contact() {
 
     const SendEmail = (e) => {
       e.preventDefault();
-      e.target.reset();
 
-      emailjs
-        .sendForm(
-          "service_7dz0xsr",
-          "template_kd1z9ll",
+      emailjs.sendForm(
+          "service_3xjuv11",
+          "template_t06tj1j",
           form.current,
           "6RTTeks5J-iCo1kXd"
         )

@@ -5,7 +5,7 @@ return (
   <article className="experience__details">
     <BsPatchCheckFill className="experience__details-icon" />
     <div>
-      <h4>{props.skill}</h4>
+      <h6>{props.skill}</h6>
       <small className="text-light">{props.level}</small>
     </div>
   </article>

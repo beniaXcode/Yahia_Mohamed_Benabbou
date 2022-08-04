@@ -25,13 +25,14 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
 }
-.experience__detail{
+.experience__details{
     display: flex;
     gap: 1rem;
 }
 .experience__details-icon{
     margin-top: 6px;
     color: var(--color-primary);
+    display:inline;
 }
 /* ===================================================maedi queries (medium)===================================================*/
 @media screen and (max-width:1024px) {
