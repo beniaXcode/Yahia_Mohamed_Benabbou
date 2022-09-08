@@ -80,7 +80,7 @@ function About() {
 
           </div>
           <p>
-            <p className='about__me-sumary'>❖ Frontend Developer with 5+ years of professional experiences in Web Designing and User Interface Development.</p>
+            <p className='about__me-sumary'>❖ web Developer with 2+ years of professional experiences in Web Designing and User Interface Development.</p>
             
             <p className='about__me-sumary'> ❖ Strong experience with Cross Browser Compatibility issues and Optimization for web, including CSS Sprites and best practices</p>
 

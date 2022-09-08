@@ -23,7 +23,9 @@ function Contact() {
           (error) => {
             console.log(error.text);
           }
-        );
+        ).then( () => { 
+  document.getElementById("contact-form").reset();
+})
     };
   return (
     <section id="contact">
@@ -57,7 +59,7 @@ function Contact() {
             </a>
           </article>
         </div>
-        <form ref={form} onSubmit={SendEmail}>
+        <form ref={form} onSubmit={SendEmail} id="contact-form">
           <input
             type="text"
             name="name"
