@@ -41,7 +41,7 @@ function Services() {
 
         <article className="service">
           <div className="service__head">
-            <h3>Software engineering</h3>
+            <h3>Software Engineering</h3>
           </div>
           <ul className="service__list">
             <li>
