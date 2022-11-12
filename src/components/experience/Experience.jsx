@@ -34,6 +34,7 @@ function Expeience() {
             <Skills skill="AWS Services" level="Experienced" />
             <Skills skill="Gitlab" level="Experienced" />
             <Skills skill="CI/CD" level="Experienced" />
+            <Skills skill="Docker" level="Experienced" />
             <Skills skill="Testing/jest" level="intermediat" />
             <Skills skill="Deployement" level="Experienced" />
             <Skills skill="Github Actions" level="Experienced" />
@@ -46,7 +47,7 @@ function Expeience() {
             <Skills skill="Powershell" level="Experienced" />
             <Skills skill="Monitoringand Alerting" level="Experienced" />
             <Skills skill="Debugging" level="Experienced" />
-            <Skills skill="Troubleshooting" level="Experienced" />
+            
           </div>
         </div>
       </div>
