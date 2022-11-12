@@ -9,7 +9,7 @@ function Services() {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>web Development</h3>
           </div>
           <ul className="service__list">
             <li>
@@ -41,7 +41,7 @@ function Services() {
 
         <article className="service">
           <div className="service__head">
-            <h3>Web Devlopement</h3>
+            <h3>Software engineering</h3>
           </div>
           <ul className="service__list">
             <li>

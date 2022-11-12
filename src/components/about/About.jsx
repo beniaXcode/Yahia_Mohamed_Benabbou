@@ -63,29 +63,29 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>5+years working</small>
+              <small>3+years working</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>12+ worldwide</small>
+              <small>16+ worldwide</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ completed projects</small>
+              <small>15+ completed projects</small>
             </article>
 
           </div>
           <p>
-            <p className='about__me-sumary'>❖ web Developer with 2+ years of professional experiences in Web Designing and User Interface Development.</p>
+            <p className='about__me-sumary'>❖ I am a software developer, specialising in the app development area. For the last 3 years, I have been developing software/Websites/mobile apps using python, Java, SQL programming languages , and my preferred stack is MERN.</p>
             
-            <p className='about__me-sumary'> ❖ Strong experience with Cross Browser Compatibility issues and Optimization for web, including CSS Sprites and best practices</p>
+            <p className='about__me-sumary'> ❖ I’m currently employed as software developer at OLLMOO. I’m hands on in all stages of the software development cycle, from planning and design to testing and deployment. my tasks may involve analysing algorithms, altering code, fixing bugs, brainstorming ideas or integrating new systems.</p>
 
-            <p className='about__me-sumary'>❖ Experts in responsive Web Design and analysing and fixing UI bugs quickly.</p>
-            <p className='about__me-sumary'>❖ Proficiency in code optimization to improving the performance..</p>
+            <p className='about__me-sumary'>❖ With a school background more focused on programmable services, systems and networks , and my last AWS solutions architect certification I'm also more oriented toward the DevOps/Cloud Field. By understanding the development process of an IT product from planning to monitoring.</p>
+            
 
 
           </p>

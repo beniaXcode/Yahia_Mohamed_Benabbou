@@ -9,7 +9,7 @@ function Header() {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1> Mohamed Yahia</h1>
-        <h5 className="text-light">Web Devlopper @ <a href="https://www.ollmoo.com/" rel="noreferrer" target="_blank">OLLMOO</a> - AWS Solutions Architect</h5>
+        <h5 className="text-light">Software engineer @ <a href="https://www.ollmoo.com/" rel="noreferrer" target="_blank">OLLMOO</a> - AWS Solutions Architect</h5>
         <Cta />
         <HeaderSocials />
         <div className='centring'>
@@ -17,7 +17,6 @@ function Header() {
           <Typewriter
             text={me} loop={false} speed={15}
           />
-
         </div>
         </div>
       <a href="#contact" className="scroll__down ">scroll down</a>
