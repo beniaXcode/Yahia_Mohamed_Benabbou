@@ -8,8 +8,8 @@ function Header() {
     <header id="home">
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <h1> Mohamed Yahia</h1>
-        <h5 className="text-light">Software engineer @ <a href="https://www.ollmoo.com/" rel="noreferrer" target="_blank">OLLMOO</a> - AWS Solutions Architect</h5>
+        <h1> Yahia Mohamed </h1>
+        <h5 className="text-light">Software Engineer @ <a href="https://www.ollmoo.com/" rel="noreferrer" target="_blank">OLLMOO</a> - AWS Certified Solutions Architect</h5>
         <Cta />
         <HeaderSocials />
         <div className='centring'>
