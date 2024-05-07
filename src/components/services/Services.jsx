@@ -9,32 +9,32 @@ function Services() {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>web Development</h3>
+            <h3>DevOps</h3>
           </div>
           <ul className="service__list">
             <li>
               <BsCheck className="service__liste-icon" />
-              <p>Cross-platform experiences design</p>
+              <p>CI/CD Pipeline Setup and Management</p>
             </li>
             <li>
               <BsCheck className="service__liste-icon" />
-              <p>Interface architecture</p>
+              <p>Infrastructure Automation and Configuration Management</p>
             </li>
             <li>
               <BsCheck className="service__liste-icon" />
-              <p>Sketching & Wireframes</p>
+              <p>Monitoring and Performance Optimization</p>
             </li>
             <li>
               <BsCheck className="service__liste-icon" />
-              <p>Dynamic prototype</p>
+              <p>Cloud Infrastructure Management</p>
             </li>
             <li>
               <BsCheck className="service__liste-icon" />
-              <p>Editing</p>
+              <p>Security and Compliance</p>
             </li>
             <li>
               <BsCheck className="service__liste-icon" />
-              <p>Design review</p>
+              <p>Collaboration and Communication</p>
             </li>
           </ul>
         </article>

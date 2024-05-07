@@ -4,8 +4,8 @@ import './experience.css'
 function Expeience() {
   return (
     <section id="experience">
-      <h5>What Ikills I have</h5>
-      <h2>My Experience</h2>
+      <h5>What Skills I have</h5>
+      <h2>Skills</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>SOFTWARE ENGINEERING </h3>
@@ -19,7 +19,7 @@ function Expeience() {
             <Skills skill="JavaScript" level="Experienced" />
             <Skills skill="Typecript" level="Experienced" />
             <Skills skill="React" level="Experienced" />
-            <Skills skill="Redux/Context API" level="Experienced" />
+            <Skills skill="Django" level="Experienced" />
             <Skills skill="NextJS" level="Experienced" />
             <Skills skill="MongoDB" level="Experienced" />
             <Skills skill="MySQL/PostgerSql" level="Experienced" />
@@ -29,14 +29,14 @@ function Expeience() {
           </div>
         </div>
         <div className="experience__frontend">
-          <h3>DEVOPS/CLOUD</h3>
+          <h3>DEVOPS</h3>
           <div className="experience__content">
             <Skills skill="AWS Services" level="Experienced" />
-            <Skills skill="Gitlab" level="Experienced" />
-            <Skills skill="CI/CD" level="Experienced" />
+            <Skills skill="Oracle Cloud" level="Experienced" />
+            <Skills skill="CI/CD Pipelines " level="Experienced" />
             <Skills skill="Docker" level="Experienced" />
-            <Skills skill="Testing/jest" level="intermediat" />
-            <Skills skill="Deployement" level="Experienced" />
+            <Skills skill="Testing" level="intermediat" />
+            <Skills skill="Gitlab" level="Experienced" />
             <Skills skill="Github Actions" level="Experienced" />
             <Skills skill="Linux" level="Experienced" />
             <Skills skill="TCP/IP" level="Experienced" />

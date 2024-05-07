@@ -22,12 +22,12 @@ const Portfolio = () => {
             <a href="https://github.com/beniaXcode/Blogger" className="btn"  >
               Github
             </a>
-            <a
+            {/* <a
               href="https://dribble.com"
               className="btn btn-primary"
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>        <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -38,14 +38,14 @@ const Portfolio = () => {
             <a href="https://github.com/beniaXcode/coffee-shop" className="btn"  >
               Github
             </a>
-            <a
+            {/* <a
               href="https://dribble.com"
               className="btn btn-primary"
                
             >
               Live Demo
-            </a>
-          </div>
+          </a>*/}
+          </div> 
         </article>        <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={web3} alt="" />
@@ -55,13 +55,13 @@ const Portfolio = () => {
             <a href="https://github.com/beniaXcode/web3-app" className="btn"  >
               Github
             </a>
-            <a
+            {/* <a
               href="https://dribble.com"
               className="btn btn-primary"
                
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>        <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -72,13 +72,13 @@ const Portfolio = () => {
             <a href="https://github.com/beniaXcode/E-commerce" className="btn"  >
               Github
             </a>
-            <a
+            {/* <a
               href="https://dribble.com"
               className="btn btn-primary"
                
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>        <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -89,13 +89,13 @@ const Portfolio = () => {
             <a href="https://www.github.com/beniaxcode/react-dashbord" className="btn"  >
               Github
             </a>
-            <a
+            {/* <a
               href="https://dribble.com"
               className="btn btn-primary"
                
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>        <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -106,13 +106,13 @@ const Portfolio = () => {
             <a href="https://www.github.com/beniaxcode/YAHIA_MOHAMED" className="btn"  >
               Github
             </a>
-            <a
+            {/* <a
               href="https://benia.me"
               className="btn btn-primary"
                
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>
       </div>

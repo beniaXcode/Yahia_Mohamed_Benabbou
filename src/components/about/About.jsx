@@ -1,7 +1,8 @@
 import React from "react";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+// import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { IoSchool } from "react-icons/io5";
 /* import me from '../../assets/me-about.jpg' */
 import "./about.css";
 function About() {
@@ -11,7 +12,7 @@ function About() {
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
+        {/* <div className="about__me">
           <div class="animation01">
             <div class="rhombus_small">
               <div class="rhombus">
@@ -82,7 +83,7 @@ function About() {
               <span class="name_circle02"></span>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
@@ -92,9 +93,9 @@ function About() {
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>3+ worldwide</small>
+              <IoSchool className="about__icon" />
+              <h5>Eduction</h5>
+              <small>Bachelor of Engineering Computer science</small>
             </article>
 
             <article className="about__card">
@@ -113,7 +114,7 @@ function About() {
 
             <p className="about__me-sumary">
               {" "}
-              ❖ I’m currently employed as software developer at OLLMOO. I’m
+              ❖ I’m currently employed as software developer . I’m
               hands on in all stages of the software development cycle, from
               planning and design to testing and deployment. my tasks may
               involve analysing algorithms, altering code, fixing bugs,
