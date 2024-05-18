@@ -1,18 +1,18 @@
 import React from 'react'
 import { BsLinkedin } from "react-icons/bs";
-import { FaStackOverflow } from "react-icons/fa";
+import { FaBlog } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 function HeaderSocials() {
   return (
     <div className="header__socials">
-      <a href="https://www.linkedin.com/in/yahia-mohamed-benabbou-678a78222/" targer="_blank">
+      <a href="https://www.linkedin.com/in/yahia-mohamed-benabbou/" targer="_blank">
         <BsLinkedin />
       </a>
       <a href="https://github.com/beniaXcode" targer="_blank">
         <FaGithub />
       </a>
-      <a href="https://stackoverflow.com/users/18318935/yahia" targer="_blank">
-        <FaStackOverflow />
+      <a href="https://nearvic.com" targer="_blank">
+        <FaBlog />
       </a>
     </div>
   );

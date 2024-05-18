@@ -3,6 +3,7 @@ import {AiOutlineHome} from "react-icons/ai";
 import {AiOutlineUser} from "react-icons/ai";
 import {BiBook} from "react-icons/bi";
 import {RiServiceLine} from "react-icons/ri";
+import { FaBlog } from "react-icons/fa";
 import {BiMessageSquareDetail} from "react-icons/bi";
 import {useState} from 'react'
 import './navbar.css'
@@ -44,6 +45,14 @@ function Navbar() {
         className={activeNav === "#contact" ? "active" : ""}
       >
         <BiMessageSquareDetail />
+      </a>
+      <a
+        href="https://nearvic.com"
+        onClick={() => setActiveNav("#contact")}
+        className={""}
+        target='_blank'
+      >
+        <FaBlog />
       </a>
     </nav>
   );

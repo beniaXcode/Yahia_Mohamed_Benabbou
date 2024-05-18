@@ -54,7 +54,7 @@
     font-size: 0.95rem;
 }
 .about__card small{
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: var(--color-light);
 }
 .about__content p{
