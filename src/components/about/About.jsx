@@ -106,27 +106,29 @@ function About() {
           </div>
           <p>
             <p className="about__me-sumary">
-              ❖ I am a software developer, specialising in the app development
-              area. For the last 3 years, I have been developing
-              software/Websites/mobile apps using python, Java, SQL programming
-              languages , and my preferred stack is MERN.
+              ❖ I am a passionate and dynamic Cloud & DevSecOps Engineer with a robust background in software development, cloud services, and DevOps concepts. My technical expertise spans a wide range of programming languages, including Python, Java, Rust, and C++, along with a strong proficiency in cloud platforms like AWS, Oracle Cloud Infrastructure (OCI), and OpenStack.
             </p>
 
             <p className="about__me-sumary">
               {" "}
-              ❖ I’m currently employed as software developer . I’m
-              hands on in all stages of the software development cycle, from
-              planning and design to testing and deployment. my tasks may
-              involve analysing algorithms, altering code, fixing bugs,
-              brainstorming ideas or integrating new systems.
+              <h4>❖Cloud Infrastructure and DevOps Skills</h4>
+              
+<ul>
+  <li><span className="about_skill_cat">Cloud Platforms:</span>  OCI, AWS, OpenStack, VMware, Nutanix</li>
+  <li><span className="about_skill_cat">DevOps Tools:</span> Docker, Kubernetes, Jenkins, Terraform, Ansible, Grafana, Docker, Kubernetes</li>
+  <li><span className="about_skill_cat">Systems & Networks Administration:</span> Linux, Git, Bash, OpenShift, TCP/IP</li>
+  <li><span className="about_skill_cat">Automation & CI/CD:</span>   Jenkins, GitHub Actions, GitLab, Serverless Framework, Terraform
+</li>
+  <li><span className="about_skill_cat">Security Practices:</span>  Container image scanning, secrets management, network segmentation, IAM  
+</li>
+</ul>
+
+ 
+ 
             </p>
 
             <p className="about__me-sumary">
-              ❖ With a school background more focused on programmable services,
-              systems and networks , and my last AWS solutions architect
-              certification I'm also more oriented toward the DevOps/Cloud
-              Field. By understanding the development process of an IT product
-              from planning to monitoring.
+              ❖ I am currently pursuing a Bachelor of Engineering in Programmable Services, Systems & Networks at the National School of Applied Science of Marrakesh. My coursework covers comprehensive topics such as DevSecOps best practices, system administration, Software Engineering , network administration, and AI/ML, providing a solid foundation for my technical pursuits.
             </p>
           </p>
           <a href="#contact" className="btn btn-primary">

@@ -31,9 +31,14 @@ function Expeience() {
         <div className="experience__frontend">
           <h3>DEVOPS</h3>
           <div className="experience__content">
-            <Skills skill="AWS Services" level="Experienced" />
+          <Skills skill="AWS Services" level="Experienced" />
             <Skills skill="Oracle Cloud" level="Experienced" />
-            <Skills skill="CI/CD Pipelines " level="Experienced" />
+            <Skills skill="VMware " level="Experienced" />
+            <Skills skill="OpenStack " level="Experienced" />
+            <Skills skill="Nutanix " level="Experienced" />
+            <Skills skill="Openshift " level="Experienced" /> 
+            <Skills skill="Grafana" level="Experienced" />
+            <Skills skill="Prometheus" level="Experienced" />
             <Skills skill="Docker" level="Experienced" />
             <Skills skill="Testing" level="intermediat" />
             <Skills skill="Gitlab" level="Experienced" />
@@ -45,8 +50,6 @@ function Expeience() {
             <Skills skill=" Systems administration " level="Experienced" />
             <Skills skill="Git" level="Experienced" />
             <Skills skill="Powershell" level="Experienced" />
-            <Skills skill="Monitoringand Alerting" level="Experienced" />
-            <Skills skill="Debugging" level="Experienced" />
             
           </div>
         </div>

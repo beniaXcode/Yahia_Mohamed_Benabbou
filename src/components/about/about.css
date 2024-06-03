@@ -64,6 +64,9 @@
     margin:1px;
     font-size: 13px;
 }
+.about_skill_cat{
+    color:var(--color-light)
+}
 /* ===================================================maedi queries (medium)===================================================*/
 @media screen and (max-width:1024px) {
     .about__container {
